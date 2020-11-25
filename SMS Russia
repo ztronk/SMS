@@ -17,13 +17,20 @@
 				"parameters": [],
 				"responses": {
 					"200": {
-						"description": "Timestamp has been received"
+						"description": "Timestamp has been received",
+						"schema": {
+							"$ref": "#/definitions/Timestamp"
+						}
 					}
 				}
 			}
 		}		
 	},
 	"definitions": {
+		"Timestamp": {
+			"properties": {
+			}
+		}
 	},
 	"tags": [{
 			"name": "Sites",
