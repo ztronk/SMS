@@ -1,0 +1,39 @@
+{
+	"swagger": "2.0",
+	"info": {
+		"title": "Sending SMS Russia",
+		"description": "API for sending SMS Russia",
+		"version": "1.0.0.0"
+	},
+	"host": "my.webcom.mobi",
+	"schemes": ["http"],
+	"paths": {
+		"/external/get/timestamp.php": {
+			"get": {
+				"tags": ["Timestamp"],
+				"description": "Timestamp",
+				"operationId": "Timestamp",
+				"produces": ["application/json"],
+				"parameters": [],
+				"responses": {
+					"200": {
+						"description": "Timestamp has been received",
+						"schema": {
+							"$ref": "#/definitions/Timestamp"
+						}
+					}
+				}
+			}
+		}		
+	},
+	"definitions": {
+		"Timestamp": {
+			}
+		}
+	},
+	"tags": [{
+			"name": "Sites",
+			"description": "Operations about Sites"
+		}
+	]
+}
