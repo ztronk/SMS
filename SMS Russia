@@ -24,8 +24,6 @@
 		}		
 	},
 	"definitions": {
-		"Timestamp": {
-		}
 	},
 	"tags": [{
 			"name": "Sites",
