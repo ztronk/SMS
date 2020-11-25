@@ -17,10 +17,7 @@
 				"parameters": [],
 				"responses": {
 					"200": {
-						"description": "Timestamp has been received",
-						"schema": {
-							"$ref": "#/definitions/Timestamp"
-						}
+						"description": "Timestamp has been received"
 					}
 				}
 			}
